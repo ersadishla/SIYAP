@@ -26,4 +26,16 @@ Route::get('/berita', function () {
 Route::get('/berita1', function () {
     return view('pages.berita1');
 });
+Route::get('/kontak', function () {
+    return view('pages.kontak');
+});
+Route::get('/donasi', function () {
+    return view('pages.donasi');
+});
+Route::get('/inventaris', function () {
+    return view('pages.inven');
+});
+Route::get('/pengajuan', function () {
+    return view('pages.pengaju');
+});
 

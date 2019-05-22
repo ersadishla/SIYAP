@@ -26,16 +26,16 @@
                 <a href="{{url('berita')}}" class="nav-link">Berita</a>
             </li>
             <li class="nav-item">
-                <a href="#" class="nav-link">Kontak</a>
+                <a href="{{url('kontak')}}" class="nav-link">Kontak</a>
             </li>
             <li class="nav-item">
-                <a href="#" class="nav-link">Donasi</a>
+                <a href="{{url('donasi')}}" class="nav-link">Donasi</a>
             </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Lainnya</a>
                 <div class="dropdown-menu">
-                    <a class="dropdown-item" href="#">Inventaris</a>
-                    <a class="dropdown-item" href="#">Pengajuan Anak Panti</a>
+                    <a class="dropdown-item" href="{{url('inventaris')}}">Inventaris</a>
+                    <a class="dropdown-item" href="{{url('pengajuan')}}">Pengajuan Anak Panti</a>
                 </div>
             </li>
         </ul>
