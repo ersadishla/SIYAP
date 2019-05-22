@@ -12,5 +12,18 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('pages.dashboard');
 });
+Route::get('/profil', function () {
+    return view('pages.profil');
+});
+Route::get('/anak', function () {
+    return view('pages.anak');
+});
+Route::get('/berita', function () {
+    return view('pages.berita');
+});
+Route::get('/berita1', function () {
+    return view('pages.berita1');
+});
+
