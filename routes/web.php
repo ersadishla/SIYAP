@@ -39,3 +39,27 @@ Route::get('/pengajuan', function () {
     return view('pages.pengaju');
 });
 
+Route::get('/admin/manage', function () {
+    return view('admin.manage');
+});
+
+Route::get('/admin/anak', function () {
+    return view('admin.anak');
+});
+
+Route::get('/admin/berita', function () {
+    return view('admin.berita');
+});
+
+Route::get('/admin/donasi', function () {
+    return view('admin.donasi');
+});
+
+Route::get('/admin/berkas', function () {
+    return view('admin.berkas');
+});
+
+Route::get('/admin/unggah', function () {
+    return view('admin.unggah');
+});
+
